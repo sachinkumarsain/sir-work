@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(42, 91, 91);
+}
+
+.mainbox{
+    width: 1100px;
+    height: 1100px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.squre{
+    width: 137.5px;
+    height: 137.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row:nth-of-type(2n) .squre:nth-of-type(2n),.row:nth-of-type(2n+1) .squre:nth-of-type(2n+1) {
+    background-color: white;
+}
+.img{
+    width: 50%;
+}
+.spical1{
+    width: 100%;
+}
+.spical2{
+    width: 100%;
+}
